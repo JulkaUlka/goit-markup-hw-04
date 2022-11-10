@@ -92,15 +92,16 @@ body {
 .adress-nav {
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 
 .adress-nav {
   margin-left: auto;
+
 }
 .nav-link a,
 .adress-nav a {
   padding: 32px 0;
-  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -123,14 +124,28 @@ body {
 .adress-nav a {
   color: var(--second-color);
 }
+.adress-link{
+  display: flex;
+  align-items: center;  
+}
 
+.adress-icon{
+  fill: currentColor;
+  margin-right: 10px;
+}
 /* ------------------HERO-------------------- */
 
 .hero {
+  max-width: 1600px;
   padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--bg-color);
   text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../images/bg_image.jpg);
 }
+
 .main-title {
   width: 696px;
   margin: 0 auto 30px;
